@@ -74,19 +74,24 @@ namespace zirChemed.Controllers
             return await _IclinicVisitsBl.edit(clinicVisitsDTO);
         }
 
-        [HttpPut]
-        public async Task<ClinicVisitsDTO> Put([FromBody] int id)
-        {
-            // עכשיו השרת מקבל את הערך 1 מ-body הבקשה
-            return await _IclinicVisitsBl.editStatus(id);
-        }
+        //[HttpPut]
+        //public async Task<ClinicVisitsDTO> Put([FromBody] int id)
+        //{
+        //    // עכשיו השרת מקבל את הערך 1 מ-body הבקשה
+        //    return await _IclinicVisitsBl.editStatus(id);
+        //}
 
 
         // DELETE api/<controller>/5
-        [HttpDelete("{id}")]
-        public async Task<ClinicVisitsDTO> Delete(int id)
+        //[HttpDelete("{id}")]
+        //public async Task<ClinicVisitsDTO> Delete(int id)
+        //{
+        //    return await _IclinicVisitsBl.delete(id);
+        //}
+        [HttpPost("delete")]
+        public async Task<ClinicVisitsDTO> Post([FromBody] int id)
         {
-            return await _IclinicVisitsBl.delete(id);
+            return await _IclinicVisitsBl.add(id);
         }
     }
 }

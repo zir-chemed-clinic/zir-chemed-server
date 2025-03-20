@@ -141,3 +141,4 @@ C:\Users\מיכל\Documents\zirChemedProj\zirChemed\zirChemed\obj\Release\netcor
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\zirChemed\obj\Release\netcoreapp3.1\zirChemed.dll
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\zirChemed\obj\Release\netcoreapp3.1\zirChemed.pdb
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\zirChemed\obj\Release\netcoreapp3.1\zirChemed.genruntimeconfig.cache
+C:\Users\מיכל\Documents\zirChemedProj\zirChemed\zirChemed\obj\Release\netcoreapp3.1\zirChemed.sourcelink.json

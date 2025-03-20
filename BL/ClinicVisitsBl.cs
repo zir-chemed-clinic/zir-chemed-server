@@ -88,5 +88,11 @@ namespace BL
             ClinicVisitsDTO clinicVisitsDTOToReturn = _mapper.Map<ClinicVisitsDTO>(clinicVisits);
             return clinicVisitsDTOToReturn;
         }
+        public async Task<ClinicVisitsDTO> add(int idClinicVisitsDTO)
+        {
+            ClinicVisits clinicVisitsAfterDelete = await _IClinicVisitsDl.delete(idClinicVisitsDTO);
+            ClinicVisitsDTO clinicVisitsDTOToReturn = _mapper.Map<ClinicVisitsDTO>(clinicVisitsAfterDelete);
+            return clinicVisitsDTOToReturn;
+        }
     }
 }

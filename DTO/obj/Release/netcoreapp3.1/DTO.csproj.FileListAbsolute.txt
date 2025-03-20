@@ -23,3 +23,4 @@ C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DTO\obj\Release\netcoreapp3.
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DTO\obj\Release\netcoreapp3.1\DTO.dll
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DTO\obj\Release\netcoreapp3.1\DTO.pdb
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DTO\obj\Release\netcoreapp3.1\DTO.genruntimeconfig.cache
+C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DTO\obj\Release\netcoreapp3.1\DTO.sourcelink.json

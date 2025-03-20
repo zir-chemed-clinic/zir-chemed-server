@@ -39,6 +39,10 @@ namespace DTO
         public string NeckDefects { get; set; }
         public string CytoplasmicDroplets { get; set; }
         public string TailDefects { get; set; }
+        public string GivingSample { get; set; }
+
+        public string DaysAvoided { get; set; }
+        public string Signature { get; set; }
 
     }
 }

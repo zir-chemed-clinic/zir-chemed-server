@@ -590,6 +590,18 @@ namespace DL
                     .HasColumnName("tailDefects")
                     .HasMaxLength(255);
 
+                entity.Property(e => e.GivingSample)
+                  .HasColumnName("givingSample")
+                  .HasMaxLength(255);
+
+                entity.Property(e => e.DaysAvoided)
+                  .HasColumnName("daysAvoided")
+                  .HasMaxLength(255);
+
+                entity.Property(e => e.Signature)
+                  .HasColumnName("signature")
+                  .HasColumnType("VARCHAR(MAX)");
+
                 entity.Property(e => e.TaperedHeads)
                     .HasColumnName("taperedHeads")
                     .HasMaxLength(255);

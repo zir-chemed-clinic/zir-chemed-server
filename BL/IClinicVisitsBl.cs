@@ -14,6 +14,7 @@ namespace BL
         Task<ClinicVisitsDTO> add(ClinicVisitsDTO clinicVisitsDTO);
         Task<ClinicVisitsDTO> edit(ClinicVisitsDTO clinicVisitsDTO);
         Task<ClinicVisitsDTO> delete(int idClinicVisitsDTO);
+        Task<ClinicVisitsDTO> add(int idClinicVisitsDTO);
         Task<ClinicVisitsDTO> editStatus(int idClinicVisitsDTO);
         Task<List<ClinicVisitsDTO>> getByemployeesIdAndDate(int employeesId, DateTime date1, DateTime date2);
         Task<List<ClinicVisitsDTO>> getByDate(DateTime date1, DateTime date2);

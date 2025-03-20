@@ -23,3 +23,4 @@ C:\Users\מיכל\Documents\zirChemedProj\zirChemed\Entities\obj\Release\netcore
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\Entities\obj\Release\netcoreapp3.1\Entities.dll
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\Entities\obj\Release\netcoreapp3.1\Entities.pdb
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\Entities\obj\Release\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\מיכל\Documents\zirChemedProj\zirChemed\Entities\obj\Release\netcoreapp3.1\Entities.sourcelink.json

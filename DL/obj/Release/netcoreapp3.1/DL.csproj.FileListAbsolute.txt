@@ -29,3 +29,4 @@ C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DL\obj\Release\netcoreapp3.1
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DL\obj\Release\netcoreapp3.1\DL.dll
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DL\obj\Release\netcoreapp3.1\DL.pdb
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DL\obj\Release\netcoreapp3.1\DL.genruntimeconfig.cache
+C:\Users\מיכל\Documents\zirChemedProj\zirChemed\DL\obj\Release\netcoreapp3.1\DL.sourcelink.json

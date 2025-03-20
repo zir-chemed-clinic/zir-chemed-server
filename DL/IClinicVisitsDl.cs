@@ -9,6 +9,7 @@ namespace DL
     {
         Task<ClinicVisits> add(ClinicVisits clinicVisits);
         Task<ClinicVisits> delete(int idClinicVisitsDTO);
+        Task<ClinicVisits> add(int idClinicVisitsDTO);
         Task<ClinicVisits> editStatus(int idClinicVisitsDTO);
 
         Task<ClinicVisits> edit(ClinicVisits clinicVisits);

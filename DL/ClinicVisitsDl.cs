@@ -84,6 +84,15 @@ namespace DL
             return clinicVisitsToRemove;
         }
 
+        public async Task<ClinicVisits> add(int idClinicVisits)
+        {
+            ClinicVisits clinicVisitsToRemove = await _zirChemedContext.ClinicVisits.FirstOrDefaultAsync(c => c.ClinicVisitsId == idClinicVisits);
+            clinicVisitsToRemove.Status = 0;
+            _zirChemedContext.ClinicVisits.Update(clinicVisitsToRemove);
+            _zirChemedContext.SaveChanges();
+            return clinicVisitsToRemove;
+        }
+
         public async Task<bool> deleteByPersonId(int idPersons)
         {
             //List<ClinicVisits> clinicVisitsToRemove = await _zirChemedContext.ClinicVisits.Where(c => c.PersonsId == idPersons).ToListAsync();

@@ -37,3 +37,4 @@ C:\Users\מיכל\Documents\zirChemedProj\zirChemed\BL\obj\Release\netcoreapp3.1
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\BL\obj\Release\netcoreapp3.1\BL.dll
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\BL\obj\Release\netcoreapp3.1\BL.pdb
 C:\Users\מיכל\Documents\zirChemedProj\zirChemed\BL\obj\Release\netcoreapp3.1\BL.genruntimeconfig.cache
+C:\Users\מיכל\Documents\zirChemedProj\zirChemed\BL\obj\Release\netcoreapp3.1\BL.sourcelink.json
