@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zirChemed")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+969810d0e64a48aa96b8f7c56ef5221b3e135308")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+634fe33b14d9c2178f530736253dbf6180a68802")]
 [assembly: System.Reflection.AssemblyProductAttribute("zirChemed")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zirChemed")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

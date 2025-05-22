@@ -56,5 +56,7 @@ namespace Entities
         public virtual ICollection<Pct> Pct { get; set; }
         public virtual ICollection<Sa> Sa { get; set; }
         public virtual ICollection<Subsidization> SubsidizationNavigation { get; set; }
+        public string Signature { get; set; }
+
     }
 }

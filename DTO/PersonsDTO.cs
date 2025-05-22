@@ -27,6 +27,7 @@ namespace DTO
         public bool? BrothersToTfila { get; set; }
         public string ManFathersName { get; set; }
         public string WomanFathersName { get; set; }
+        public string Comment { get; set; }
 
     }
 }

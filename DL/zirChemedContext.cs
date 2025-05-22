@@ -118,6 +118,9 @@ namespace DL
                 entity.Property(e => e.Status)
                       .HasColumnName("status")
                       .HasDefaultValue(1);
+                entity.Property(e => e.Signature)
+                .HasColumnName("signature")
+                .HasColumnType("VARCHAR(MAX)");
             });
 
             modelBuilder.Entity<Employees>(entity =>
@@ -467,6 +470,10 @@ namespace DL
                 entity.Property(e => e.WomanFathersName)
                     .HasColumnName("womanFathersName")
                     .HasMaxLength(255);
+
+                entity.Property(e => e.Comment)
+                    .HasColumnName("comment")
+                    .HasMaxLength(255); 
 
                 entity.Property(e => e.WomanId).HasColumnName("womanId");
 

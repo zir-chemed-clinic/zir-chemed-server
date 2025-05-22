@@ -40,6 +40,8 @@ namespace DTO
         public  EmployeesDTO PreformedNavigation { get; set; }
         public  EmployeesDTO MorphologyNavigation { get; set; }
         public  TreatmentsDTO Treatments { get; set; }
+        public string Signature { get; set; }
+
 
     }
 }
